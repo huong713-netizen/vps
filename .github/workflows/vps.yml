@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: ⬇️ Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🔐 Start tmate session
         run: |
@@ -29,10 +31,11 @@ jobs:
           SSH=$(tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}')
           echo "🔗 SSH: $SSH"
           curl -s -X POST https://web-server.x10.mx/vnc/index.php -d "ssh=$SSH"
+
       - name: ⏳ Run client
         run: |
-          chmod +x playit
-          nohup ./client > client.log 2>&1 &
+          chmod +x client || true
+          nohup ./client > client.log 2>&1 & || true
 
       - name: ⏳ Keep VPS alive
         run: |
@@ -40,3 +43,16 @@ jobs:
             echo "🟢 Running minute $i/180..."
             sleep 60
           done
+
+      - name: 💾 Commit & Push toàn bộ thay đổi
+        if: always()   # luôn commit ngay cả khi job fail
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+          git add -A
+          git commit -m "⚡ Auto backup runner files at $(date)" || echo "No changes to commit"
+
+          git push origin HEAD:${GITHUB_REF##*/}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
