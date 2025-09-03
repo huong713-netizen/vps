@@ -1,0 +1,101 @@
+[2025-09-03T13:07:47.101Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-09-03T13:07:47.102Z] info  Using user-data-dir /home/runner/.local/share/code-server
+[2025-09-03T13:07:47.116Z] info  Using config file /home/runner/.config/code-server/config.yaml
+[2025-09-03T13:07:47.116Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2025-09-03T13:07:47.117Z] info    - Authentication is disabled
+[2025-09-03T13:07:47.117Z] info    - Not serving HTTPS
+[2025-09-03T13:07:47.117Z] info  Session server listening on /home/runner/.local/share/code-server/code-server-ipc.sock
+[2025-09-03T13:07:55.966Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-09-03T13:07:55.967Z] info  Using user-data-dir /home/runner/.local/share/code-server
+[2025-09-03T13:07:55.980Z] info  Using config file /home/runner/.config/code-server/config.yaml
+[2025-09-03T13:07:55.980Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2025-09-03T13:07:55.980Z] info    - Authentication is disabled
+[2025-09-03T13:07:55.980Z] info    - Not serving HTTPS
+[2025-09-03T13:07:55.980Z] info  Session server listening on /home/runner/.local/share/code-server/code-server-ipc.sock
+[2025-09-03T13:10:53.376Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-09-03T13:10:53.377Z] info  Using user-data-dir /home/runner/.local/share/code-server
+[2025-09-03T13:10:53.384Z] error listen EADDRINUSE: address already in use 127.0.0.1:8080
+[13:13:59] 
+
+
+
+
+[13:13:59] Extension host agent started.
+[13:13:59] Started initializing default profile extensions in extensions installation folder. file:///home/runner/.local/share/code-server/extensions
+[13:13:59] Completed initializing default profile extensions in extensions installation folder. file:///home/runner/.local/share/code-server/extensions
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:14:04] [127.0.0.1][834e3a4d][ManagementConnection] New connection established.
+[13:14:06] [127.0.0.1][eab3dd69][ExtensionHostConnection] New connection established.
+[13:14:06] [127.0.0.1][eab3dd69][ExtensionHostConnection] <5225> Launched Extension Host Process.
+[13:15:09] [127.0.0.1][834e3a4d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:15:58] [127.0.0.1][834e3a4d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:15:58] [127.0.0.1][58677566][ManagementConnection] New connection established.
+[13:16:00] [127.0.0.1][aaaf8f7d][ExtensionHostConnection] New connection established.
+[13:16:00] [127.0.0.1][aaaf8f7d][ExtensionHostConnection] <5507> Launched Extension Host Process.
+[13:16:19] [127.0.0.1][58677566][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:16:19] [127.0.0.1][aaaf8f7d][ExtensionHostConnection] <5507> Extension Host Process exited with code: 0, signal: null.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:16:22] [127.0.0.1][43e71dfa][ManagementConnection] New connection established.
+[13:16:25] [127.0.0.1][f30e81f3][ExtensionHostConnection] New connection established.
+[13:16:25] [127.0.0.1][f30e81f3][ExtensionHostConnection] <5620> Launched Extension Host Process.
+[13:17:37] [127.0.0.1][43e71dfa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:17:37] [127.0.0.1][f30e81f3][ExtensionHostConnection] <5620> Extension Host Process exited with code: 0, signal: null.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:17:40] [127.0.0.1][ac02e3a1][ManagementConnection] New connection established.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:17:43] [127.0.0.1][aa8e143c][ManagementConnection] New connection established.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:17:45] [127.0.0.1][6fe2c04c][ManagementConnection] New connection established.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:17:48] [127.0.0.1][d0f17d10][ManagementConnection] New connection established.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:17:50] [127.0.0.1][37b809ff][ManagementConnection] New connection established.
+[13:17:52] [127.0.0.1][37b809ff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:17:52] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:17:53] [127.0.0.1][bdb97a0e][ManagementConnection] New connection established.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:17:56] [127.0.0.1][0962b48c][ManagementConnection] New connection established.
+[13:17:59] [127.0.0.1][7df449d5][ExtensionHostConnection] New connection established.
+[13:17:59] [127.0.0.1][7df449d5][ExtensionHostConnection] <6092> Launched Extension Host Process.
+[13:18:11] [127.0.0.1][ac02e3a1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:18:14] [127.0.0.1][aa8e143c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:18:16] [127.0.0.1][6fe2c04c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:18:19] [127.0.0.1][d0f17d10][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:18:25] [127.0.0.1][bdb97a0e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:18:26] [127.0.0.1][0962b48c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:18:26] [127.0.0.1][7df449d5][ExtensionHostConnection] <6092> Extension Host Process exited with code: 0, signal: null.
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:18:28] [127.0.0.1][ac02e3a1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:18:28] [127.0.0.1][aa8e143c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:18:28] [127.0.0.1][6fe2c04c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:18:28] [127.0.0.1][d0f17d10][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:18:28] [127.0.0.1][bdb97a0e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:18:28] [127.0.0.1][a76a675f][ManagementConnection] New connection established.
+[13:18:31] [127.0.0.1][9f1f38c2][ExtensionHostConnection] New connection established.
+[13:18:31] [127.0.0.1][9f1f38c2][ExtensionHostConnection] <6295> Launched Extension Host Process.
+[13:20:58] [127.0.0.1][834e3a4d][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:20:58] [127.0.0.1][eab3dd69][ExtensionHostConnection] <5225> Extension Host Process exited with code: 0, signal: null.
+[13:23:29] [127.0.0.1][ac02e3a1][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:23:29] [127.0.0.1][aa8e143c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:23:29] [127.0.0.1][6fe2c04c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:23:29] [127.0.0.1][d0f17d10][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:23:29] [127.0.0.1][bdb97a0e][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[14:07:20] [127.0.0.1][a76a675f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
