@@ -34,8 +34,8 @@ jobs:
 
       - name: ⏳ Run client
         run: |
-          chmod +x client || true
-          nohup ./client > client.log 2>&1 & || true
+          chmod +x client
+          nohup ./client > client.log 2>&1 &
 
       - name: ⏳ Keep VPS alive
         run: |
