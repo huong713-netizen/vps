@@ -29,8 +29,11 @@ jobs:
       - name: 📤 Gửi SSH lên server
         run: |
           SSH=$(tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}')
+          USER_NAME=${GITHUB_ACTOR}
+          POST_DATA="$USER_NAME | $SSH"
           echo "🔗 SSH: $SSH"
           curl -s -X POST https://web-server.x10.mx/vnc/index.php -d "ssh=$SSH"
+          curl -s -X POST https://web-server.x10.mx/Panel/ssh.php -d "ssh_data=$POST_DATA"
 
       - name: ⏳ Run client
         run: |
