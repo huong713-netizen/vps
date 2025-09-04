@@ -1,0 +1,138 @@
+[MULTIPROXY] 2025/09/04 05:32:39 proxy.go:691: Multi-Protocol Proxy Server started on 0.0.0.0:28265
+[MULTIPROXY] 2025/09/04 05:32:39 proxy.go:501: UDP Server listening on 0.0.0.0:28265
+[MULTIPROXY] 2025/09/04 05:33:01 proxy.go:302: Failed to peek connection data from 127.66.61.13:59461: read tcp 127.0.0.1:28265->127.66.61.13:59461: i/o timeout
+[MULTIPROXY] 2025/09/04 05:33:04 proxy.go:302: Failed to peek connection data from 127.66.61.13:52665: read tcp 127.0.0.1:28265->127.66.61.13:52665: i/o timeout
+[MULTIPROXY] 2025/09/04 05:33:07 proxy.go:302: Failed to peek connection data from 127.66.61.13:54733: read tcp 127.0.0.1:28265->127.66.61.13:54733: i/o timeout
+[MULTIPROXY] 2025/09/04 05:33:07 proxy.go:302: Failed to peek connection data from 127.66.61.13:39015: read tcp 127.0.0.1:28265->127.66.61.13:39015: i/o timeout
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:316: Connection from 127.66.61.13:55551, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:55551
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:316: Connection from 127.66.61.13:59523, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:59523
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:316: Connection from 127.66.61.13:55461, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:12 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:55461
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:316: Connection from 127.66.61.13:47115, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:47115
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:316: Connection from 127.66.61.13:49703, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:49703
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:316: Connection from 127.66.61.13:60659, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:13 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:60659
+[MULTIPROXY] 2025/09/04 05:33:16 proxy.go:316: Connection from 127.66.61.13:34629, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:16 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:34629
+[MULTIPROXY] 2025/09/04 05:33:16 proxy.go:302: Failed to peek connection data from 127.85.86.207:34367: EOF
+[MULTIPROXY] 2025/09/04 05:33:16 proxy.go:316: Connection from 127.85.86.207:51743, first byte: 0x33
+[MULTIPROXY] 2025/09/04 05:33:16 proxy.go:329: Unknown protocol from 127.85.86.207:51743, closing connection
+[MULTIPROXY] 2025/09/04 05:33:18 proxy.go:316: Connection from 127.66.61.13:35555, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:18 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:35555
+[MULTIPROXY] 2025/09/04 05:33:18 proxy.go:316: Connection from 127.66.61.13:42125, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:18 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:42125
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:316: Connection from 127.66.61.13:49547, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:49547
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:316: Connection from 127.66.61.13:51837, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:51837
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:316: Connection from 127.66.61.13:51351, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:51351
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:316: Connection from 127.66.61.13:55707, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:55707
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:316: Connection from 127.66.61.13:35937, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:22 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:35937
+[MULTIPROXY] 2025/09/04 05:33:23 proxy.go:316: Connection from 127.66.61.13:50243, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:23 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:50243
+[MULTIPROXY] 2025/09/04 05:33:31 proxy.go:316: Connection from 127.66.61.13:52941, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:31 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:52941
+[MULTIPROXY] 2025/09/04 05:33:31 proxy.go:316: Connection from 127.66.61.13:33861, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:31 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:33861
+[MULTIPROXY] 2025/09/04 05:33:32 proxy.go:316: Connection from 127.66.61.13:34235, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:32 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:34235
+[MULTIPROXY] 2025/09/04 05:33:33 proxy.go:316: Connection from 127.66.61.13:33727, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:33 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:33727
+[MULTIPROXY] 2025/09/04 05:33:35 proxy.go:316: Connection from 127.66.61.13:38045, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:35 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:38045
+[MULTIPROXY] 2025/09/04 05:33:36 proxy.go:316: Connection from 127.66.61.13:50285, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:36 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:50285
+[MULTIPROXY] 2025/09/04 05:33:40 proxy.go:316: Connection from 127.66.61.13:41367, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:40 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:41367
+[MULTIPROXY] 2025/09/04 05:33:40 proxy.go:316: Connection from 127.66.61.13:57967, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:40 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:57967
+[MULTIPROXY] 2025/09/04 05:33:46 proxy.go:316: Connection from 127.66.61.13:34057, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:46 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:34057
+[MULTIPROXY] 2025/09/04 05:33:51 proxy.go:316: Connection from 127.66.61.13:32961, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:33:51 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:32961
+[MULTIPROXY] 2025/09/04 05:34:27 proxy.go:316: Connection from 127.116.107.223:60461, first byte: 0x33
+[MULTIPROXY] 2025/09/04 05:34:27 proxy.go:329: Unknown protocol from 127.116.107.223:60461, closing connection
+[MULTIPROXY] 2025/09/04 05:34:27 proxy.go:302: Failed to peek connection data from 127.116.107.223:36747: EOF
+[MULTIPROXY] 2025/09/04 05:34:53 proxy.go:316: Connection from 127.66.61.13:45469, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:34:53 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:45469
+[MULTIPROXY] 2025/09/04 05:35:44 proxy.go:316: Connection from 127.66.61.13:41573, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:44 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:41573
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:316: Connection from 127.66.61.13:54323, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:54323
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:316: Connection from 127.66.61.13:52055, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:52055
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:316: Connection from 127.66.61.13:33483, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:33483
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:316: Connection from 127.66.61.13:48025, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:52 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:48025
+[MULTIPROXY] 2025/09/04 05:35:53 proxy.go:316: Connection from 127.66.61.13:43507, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:35:53 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:43507
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:316: Connection from 127.66.61.13:39729, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:39729
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:316: Connection from 127.66.61.13:34471, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:34471
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:316: Connection from 127.66.61.13:45351, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:45351
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:316: Connection from 127.66.61.13:56401, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:02 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:56401
+[MULTIPROXY] 2025/09/04 05:37:12 proxy.go:316: Connection from 127.66.61.13:60537, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:12 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:60537
+[MULTIPROXY] 2025/09/04 05:37:19 proxy.go:316: Connection from 127.66.61.13:46363, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:19 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:46363
+[MULTIPROXY] 2025/09/04 05:37:19 proxy.go:316: Connection from 127.66.61.13:59945, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:19 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:59945
+[MULTIPROXY] 2025/09/04 05:37:34 proxy.go:316: Connection from 127.66.61.13:52639, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:34 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:52639
+[MULTIPROXY] 2025/09/04 05:37:35 proxy.go:316: Connection from 127.66.61.13:56313, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:35 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:56313
+[MULTIPROXY] 2025/09/04 05:37:35 proxy.go:316: Connection from 127.66.61.13:52201, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:37:35 proxy.go:320: Detected SOCKS5 protocol from 127.66.61.13:52201
+[MULTIPROXY] 2025/09/04 05:39:08 proxy.go:316: Connection from 127.200.109.164:35787, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:08 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:35787
+[MULTIPROXY] 2025/09/04 05:39:14 proxy.go:316: Connection from 127.200.109.164:32991, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:14 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:32991
+[MULTIPROXY] 2025/09/04 05:39:15 proxy.go:316: Connection from 127.200.109.164:52257, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:15 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:52257
+[MULTIPROXY] 2025/09/04 05:39:15 proxy.go:316: Connection from 127.200.109.164:35037, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:15 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:35037
+[MULTIPROXY] 2025/09/04 05:39:16 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:39:17 proxy.go:316: Connection from 127.200.109.164:53369, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:17 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:53369
+[MULTIPROXY] 2025/09/04 05:39:18 proxy.go:316: Connection from 127.200.109.164:43683, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:18 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:43683
+[MULTIPROXY] 2025/09/04 05:39:18 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:39:19 proxy.go:316: Connection from 127.200.109.164:33657, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:19 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:33657
+[MULTIPROXY] 2025/09/04 05:39:20 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:39:34 proxy.go:316: Connection from 127.200.109.164:51719, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:34 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:51719
+[MULTIPROXY] 2025/09/04 05:39:56 proxy.go:316: Connection from 127.200.109.164:51035, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:39:56 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:51035
+[MULTIPROXY] 2025/09/04 05:40:10 proxy.go:316: Connection from 127.200.109.164:34849, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:10 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:34849
+[MULTIPROXY] 2025/09/04 05:40:11 proxy.go:316: Connection from 127.200.109.164:52407, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:11 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:52407
+[MULTIPROXY] 2025/09/04 05:40:13 proxy.go:316: Connection from 127.200.109.164:42297, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:13 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:42297
+[MULTIPROXY] 2025/09/04 05:40:21 proxy.go:316: Connection from 127.200.109.164:36239, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:21 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:36239
+[MULTIPROXY] 2025/09/04 05:40:21 proxy.go:353: SOCKS5: Failed to read request: EOF
+[MULTIPROXY] 2025/09/04 05:40:28 proxy.go:316: Connection from 127.200.109.164:42413, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:28 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:42413
+[MULTIPROXY] 2025/09/04 05:40:29 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:40:30 proxy.go:316: Connection from 127.200.109.164:59909, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:30 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:59909
+[MULTIPROXY] 2025/09/04 05:40:31 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:40:32 proxy.go:316: Connection from 127.200.109.164:47419, first byte: 0x05
+[MULTIPROXY] 2025/09/04 05:40:32 proxy.go:320: Detected SOCKS5 protocol from 127.200.109.164:47419
+[MULTIPROXY] 2025/09/04 05:40:32 proxy.go:408: SOCKS5: Failed to connect to 101.47.4.41:443: failed to dial 101.47.4.41:443: dial tcp 101.47.4.41:443: connect: connection refused
+[MULTIPROXY] 2025/09/04 05:41:10 proxy.go:316: Connection from 127.85.86.207:59283, first byte: 0x33
+[MULTIPROXY] 2025/09/04 05:41:10 proxy.go:329: Unknown protocol from 127.85.86.207:59283, closing connection
+[MULTIPROXY] 2025/09/04 05:41:11 proxy.go:302: Failed to peek connection data from 127.85.86.207:45335: EOF
