@@ -136,3 +136,100 @@
 [MULTIPROXY] 2025/09/04 05:41:10 proxy.go:316: Connection from 127.85.86.207:59283, first byte: 0x33
 [MULTIPROXY] 2025/09/04 05:41:10 proxy.go:329: Unknown protocol from 127.85.86.207:59283, closing connection
 [MULTIPROXY] 2025/09/04 05:41:11 proxy.go:302: Failed to peek connection data from 127.85.86.207:45335: EOF
+[MULTIPROXY] 2025/09/07 07:45:54 proxy.go:691: Multi-Protocol Proxy Server started on 0.0.0.0:28265
+[MULTIPROXY] 2025/09/07 07:45:54 proxy.go:501: UDP Server listening on 0.0.0.0:28265
+[MULTIPROXY] 2025/09/07 07:46:46 proxy.go:175: Failed to start UDP server: listen udp 0.0.0.0:28265: bind: address already in use
+[MULTIPROXY] 2025/09/07 07:46:46 proxy.go:687: Failed to start TCP server: listen tcp 0.0.0.0:28265: bind: address already in use
+[MULTIPROXY] 2025/09/07 07:49:05 proxy.go:175: Failed to start UDP server: listen udp 0.0.0.0:28265: bind: address already in use
+[MULTIPROXY] 2025/09/07 07:49:05 proxy.go:687: Failed to start TCP server: listen tcp 0.0.0.0:28265: bind: address already in use
+[MULTIPROXY] 2025/09/07 07:51:03 proxy.go:316: Connection from 127.159.146.166:51605, first byte: 0x33
+[MULTIPROXY] 2025/09/07 07:51:03 proxy.go:329: Unknown protocol from 127.159.146.166:51605, closing connection
+[MULTIPROXY] 2025/09/07 07:51:03 proxy.go:302: Failed to peek connection data from 127.159.146.166:58337: EOF
+[MULTIPROXY] 2025/09/07 08:02:41 proxy.go:316: Connection from 127.159.146.166:42127, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:02:41 proxy.go:329: Unknown protocol from 127.159.146.166:42127, closing connection
+[MULTIPROXY] 2025/09/07 08:02:41 proxy.go:302: Failed to peek connection data from 127.159.146.166:47353: EOF
+[MULTIPROXY] 2025/09/07 08:06:55 proxy.go:316: Connection from 127.97.34.147:46803, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:06:55 proxy.go:329: Unknown protocol from 127.97.34.147:46803, closing connection
+[MULTIPROXY] 2025/09/07 08:06:55 proxy.go:302: Failed to peek connection data from 127.97.34.147:59235: EOF
+[MULTIPROXY] 2025/09/07 08:09:51 proxy.go:316: Connection from 127.71.183.137:37241, first byte: 0x31
+[MULTIPROXY] 2025/09/07 08:09:51 proxy.go:329: Unknown protocol from 127.71.183.137:37241, closing connection
+[MULTIPROXY] 2025/09/07 08:20:21 proxy.go:302: Failed to peek connection data from 127.159.146.166:52879: EOF
+[MULTIPROXY] 2025/09/07 08:20:21 proxy.go:316: Connection from 127.159.146.166:40949, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:20:21 proxy.go:329: Unknown protocol from 127.159.146.166:40949, closing connection
+[MULTIPROXY] 2025/09/07 08:25:34 proxy.go:316: Connection from 127.97.34.147:34735, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:25:34 proxy.go:329: Unknown protocol from 127.97.34.147:34735, closing connection
+[MULTIPROXY] 2025/09/07 08:25:34 proxy.go:302: Failed to peek connection data from 127.97.34.147:51269: EOF
+[MULTIPROXY] 2025/09/07 08:26:23 proxy.go:316: Connection from 127.159.146.166:36143, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:26:23 proxy.go:329: Unknown protocol from 127.159.146.166:36143, closing connection
+[MULTIPROXY] 2025/09/07 08:26:23 proxy.go:302: Failed to peek connection data from 127.159.146.166:52789: EOF
+[MULTIPROXY] 2025/09/07 08:32:20 proxy.go:316: Connection from 127.159.146.166:46425, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:32:20 proxy.go:329: Unknown protocol from 127.159.146.166:46425, closing connection
+[MULTIPROXY] 2025/09/07 08:32:20 proxy.go:302: Failed to peek connection data from 127.159.146.166:46319: EOF
+[MULTIPROXY] 2025/09/07 08:38:10 proxy.go:316: Connection from 127.159.146.166:60973, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:38:10 proxy.go:329: Unknown protocol from 127.159.146.166:60973, closing connection
+[MULTIPROXY] 2025/09/07 08:38:10 proxy.go:302: Failed to peek connection data from 127.159.146.166:36421: EOF
+[MULTIPROXY] 2025/09/07 08:44:05 proxy.go:316: Connection from 127.159.146.166:45829, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:44:05 proxy.go:329: Unknown protocol from 127.159.146.166:45829, closing connection
+[MULTIPROXY] 2025/09/07 08:44:05 proxy.go:302: Failed to peek connection data from 127.159.146.166:39115: EOF
+[MULTIPROXY] 2025/09/07 08:44:06 proxy.go:316: Connection from 127.97.34.147:42101, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:44:06 proxy.go:329: Unknown protocol from 127.97.34.147:42101, closing connection
+[MULTIPROXY] 2025/09/07 08:44:06 proxy.go:302: Failed to peek connection data from 127.97.34.147:36149: EOF
+[MULTIPROXY] 2025/09/07 08:49:52 proxy.go:316: Connection from 127.159.146.166:45677, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:49:52 proxy.go:329: Unknown protocol from 127.159.146.166:45677, closing connection
+[MULTIPROXY] 2025/09/07 08:49:52 proxy.go:302: Failed to peek connection data from 127.159.146.166:33717: EOF
+[MULTIPROXY] 2025/09/07 08:52:35 proxy.go:302: Failed to peek connection data from 127.174.112.53:60105: EOF
+[MULTIPROXY] 2025/09/07 08:52:35 proxy.go:316: Connection from 127.174.112.53:58473, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:52:35 proxy.go:329: Unknown protocol from 127.174.112.53:58473, closing connection
+[MULTIPROXY] 2025/09/07 08:55:43 proxy.go:316: Connection from 127.159.146.166:33335, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:55:43 proxy.go:329: Unknown protocol from 127.159.146.166:33335, closing connection
+[MULTIPROXY] 2025/09/07 08:55:43 proxy.go:302: Failed to peek connection data from 127.159.146.166:56425: EOF
+[MULTIPROXY] 2025/09/07 08:58:21 proxy.go:316: Connection from 127.174.112.53:45743, first byte: 0x33
+[MULTIPROXY] 2025/09/07 08:58:21 proxy.go:329: Unknown protocol from 127.174.112.53:45743, closing connection
+[MULTIPROXY] 2025/09/07 08:58:22 proxy.go:302: Failed to peek connection data from 127.174.112.53:52675: EOF
+[MULTIPROXY] 2025/09/07 09:01:29 proxy.go:316: Connection from 127.159.146.166:40153, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:01:29 proxy.go:329: Unknown protocol from 127.159.146.166:40153, closing connection
+[MULTIPROXY] 2025/09/07 09:01:30 proxy.go:302: Failed to peek connection data from 127.159.146.166:53151: EOF
+[MULTIPROXY] 2025/09/07 09:02:45 proxy.go:316: Connection from 127.97.34.147:41899, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:02:45 proxy.go:329: Unknown protocol from 127.97.34.147:41899, closing connection
+[MULTIPROXY] 2025/09/07 09:02:45 proxy.go:302: Failed to peek connection data from 127.97.34.147:35635: EOF
+[MULTIPROXY] 2025/09/07 09:07:21 proxy.go:302: Failed to peek connection data from 127.159.146.166:36531: EOF
+[MULTIPROXY] 2025/09/07 09:07:22 proxy.go:316: Connection from 127.159.146.166:45173, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:07:22 proxy.go:329: Unknown protocol from 127.159.146.166:45173, closing connection
+[MULTIPROXY] 2025/09/07 09:13:08 proxy.go:302: Failed to peek connection data from 127.159.146.166:53897: read tcp 127.0.0.1:28265->127.159.146.166:53897: i/o timeout
+[MULTIPROXY] 2025/09/07 09:21:23 proxy.go:316: Connection from 127.97.34.147:49695, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:21:23 proxy.go:329: Unknown protocol from 127.97.34.147:49695, closing connection
+[MULTIPROXY] 2025/09/07 09:21:23 proxy.go:302: Failed to peek connection data from 127.97.34.147:32819: EOF
+[MULTIPROXY] 2025/09/07 09:24:46 proxy.go:316: Connection from 127.159.146.166:38723, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:24:46 proxy.go:329: Unknown protocol from 127.159.146.166:38723, closing connection
+[MULTIPROXY] 2025/09/07 09:24:46 proxy.go:302: Failed to peek connection data from 127.159.146.166:57607: EOF
+[MULTIPROXY] 2025/09/07 09:31:28 proxy.go:302: Failed to peek connection data from 127.66.44.242:32955: read tcp 127.0.0.1:28265->127.66.44.242:32955: i/o timeout
+[MULTIPROXY] 2025/09/07 09:34:56 proxy.go:316: Connection from 127.66.44.242:37159, first byte: 0x15
+[MULTIPROXY] 2025/09/07 09:34:56 proxy.go:329: Unknown protocol from 127.66.44.242:37159, closing connection
+[MULTIPROXY] 2025/09/07 09:34:57 proxy.go:316: Connection from 127.66.44.242:39469, first byte: 0xfe
+[MULTIPROXY] 2025/09/07 09:34:57 proxy.go:329: Unknown protocol from 127.66.44.242:39469, closing connection
+[MULTIPROXY] 2025/09/07 09:36:16 proxy.go:302: Failed to peek connection data from 127.66.44.242:46007: read tcp 127.0.0.1:28265->127.66.44.242:46007: i/o timeout
+[MULTIPROXY] 2025/09/07 09:36:19 proxy.go:316: Connection from 127.159.146.166:51069, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:36:19 proxy.go:329: Unknown protocol from 127.159.146.166:51069, closing connection
+[MULTIPROXY] 2025/09/07 09:36:19 proxy.go:302: Failed to peek connection data from 127.159.146.166:40775: EOF
+[MULTIPROXY] 2025/09/07 09:38:47 proxy.go:316: Connection from 127.66.44.242:34195, first byte: 0x15
+[MULTIPROXY] 2025/09/07 09:38:47 proxy.go:329: Unknown protocol from 127.66.44.242:34195, closing connection
+[MULTIPROXY] 2025/09/07 09:38:49 proxy.go:316: Connection from 127.66.44.242:40963, first byte: 0xfe
+[MULTIPROXY] 2025/09/07 09:38:49 proxy.go:329: Unknown protocol from 127.66.44.242:40963, closing connection
+[MULTIPROXY] 2025/09/07 09:40:01 proxy.go:316: Connection from 127.97.34.147:54335, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:40:01 proxy.go:329: Unknown protocol from 127.97.34.147:54335, closing connection
+[MULTIPROXY] 2025/09/07 09:40:02 proxy.go:302: Failed to peek connection data from 127.97.34.147:60473: EOF
+[MULTIPROXY] 2025/09/07 09:40:48 proxy.go:316: Connection from 127.66.44.242:34675, first byte: 0x15
+[MULTIPROXY] 2025/09/07 09:40:48 proxy.go:329: Unknown protocol from 127.66.44.242:34675, closing connection
+[MULTIPROXY] 2025/09/07 09:40:49 proxy.go:316: Connection from 127.66.44.242:58133, first byte: 0xfe
+[MULTIPROXY] 2025/09/07 09:40:49 proxy.go:329: Unknown protocol from 127.66.44.242:58133, closing connection
+[MULTIPROXY] 2025/09/07 09:41:28 proxy.go:316: Connection from 127.224.229.59:38443, first byte: 0x31
+[MULTIPROXY] 2025/09/07 09:41:28 proxy.go:329: Unknown protocol from 127.224.229.59:38443, closing connection
+[MULTIPROXY] 2025/09/07 09:41:34 proxy.go:316: Connection from 127.66.44.242:57317, first byte: 0x15
+[MULTIPROXY] 2025/09/07 09:41:34 proxy.go:329: Unknown protocol from 127.66.44.242:57317, closing connection
+[MULTIPROXY] 2025/09/07 09:41:35 proxy.go:316: Connection from 127.66.44.242:55089, first byte: 0xfe
+[MULTIPROXY] 2025/09/07 09:41:35 proxy.go:329: Unknown protocol from 127.66.44.242:55089, closing connection
+[MULTIPROXY] 2025/09/07 09:42:01 proxy.go:316: Connection from 127.159.146.166:45881, first byte: 0x33
+[MULTIPROXY] 2025/09/07 09:42:01 proxy.go:329: Unknown protocol from 127.159.146.166:45881, closing connection
+[MULTIPROXY] 2025/09/07 09:42:01 proxy.go:302: Failed to peek connection data from 127.159.146.166:39977: EOF
+[MULTIPROXY] 2025/09/07 09:43:30 proxy.go:316: Connection from 127.231.179.50:50665, first byte: 0x31
+[MULTIPROXY] 2025/09/07 09:43:30 proxy.go:329: Unknown protocol from 127.231.179.50:50665, closing connection
