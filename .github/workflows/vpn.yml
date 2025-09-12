@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 65
 
     steps:
       - name: Cài đặt Docker
@@ -64,3 +65,8 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /home/blercvom/domains/web-server.x10.mx/public_html/vpn
+          
+      - name: Giữ VPN hoạt động 1 giờ
+        run: |
+          echo "VPN và Cloudflared sẽ chạy trong 1 giờ..."
+          sleep 3600
