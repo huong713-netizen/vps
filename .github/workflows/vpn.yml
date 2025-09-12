@@ -1,61 +1,56 @@
-name: VPN Server with Cloudflared
+name: VPN with Cloudflared
 
 on:
   workflow_dispatch:
   repository_dispatch:
     types: [create-vpn]
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Docker
+      - name: Cài đặt Docker
         run: |
-          sudo apt update
-          sudo apt install -y docker.io
+          sudo apt-get update
+          sudo apt-get install -y docker.io
 
-      - name: Setup OpenVPN (Docker)
+      - name: Cài đặt Cloudflared
+        run: |
+          wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+          chmod +x cloudflared-linux-amd64
+
+      - name: Chạy OpenVPN server
         run: |
           mkdir -p ~/openvpn-data
           docker run -v ~/openvpn-data:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig -u tcp://localhost:1194
           docker run -v ~/openvpn-data:/etc/openvpn --rm -it kylemanna/openvpn ovpn_initpki nopass
-          docker run -v ~/openvpn-data:/etc/openvpn --rm kylemanna/openvpn easyrsa build-client-full client1 nopass
-          docker run -v ~/openvpn-data:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient client1 > client.ovpn
-      - name: Run OpenVPN Server
-        run: |
           docker run -d --name openvpn --cap-add=NET_ADMIN \
             -v ~/openvpn-data:/etc/openvpn -p 1194:1194/tcp \
             kylemanna/openvpn
 
-      - name: Install Cloudflared
+      - name: Chạy Cloudflared tunnel ngầm
         run: |
-          wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
-          sudo dpkg -i cloudflared-linux-amd64.deb
+          nohup ./cloudflared-linux-amd64 tunnel --url tcp://localhost:1194 > cf.log 2>&1 &
+          sleep 10
+          cat cf.log
 
-      - name: Configure Cloudflared Tunnel
+      - name: Lấy URL từ Cloudflared
+        id: geturl
         run: |
-          mkdir -p ~/.cloudflared
-          cat > ~/.cloudflared/config.yml <<EOF
-          tunnel: openvpn-tunnel
-          credentials-file: /root/.cloudflared/openvpn-tunnel.json
+          URL=$(grep -o "trycloudflare.com:[0-9]*" cf.log | head -n 1)
+          echo "PUBLIC_URL=$URL" >> $GITHUB_ENV
+          echo "✅ URL: $URL"
 
-          ingress:
-            - hostname: vpn-tcp.web-server.x10.mx
-              service: tcp://localhost:1194
-            - hostname: vpn-443.web-server.x10.mx
-              service: tcp://localhost:443
-            - service: http_status:404
-          EOF
-
-      - name: Run Cloudflared
+      - name: Tạo client.ovpn với URL Cloudflare
         run: |
-          nohup cloudflared tunnel --config ~/.cloudflared/config.yml run openvpn-tunnel &
+          docker run -v ~/openvpn-data:/etc/openvpn --rm kylemanna/openvpn easyrsa build-client-full client1 nopass
+          docker run -v ~/openvpn-data:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient client1 > client.ovpn
+          sed -i "s/remote .*/remote $PUBLIC_URL/" client.ovpn
+          echo "========== Final OVPN =========="
+          cat client.ovpn
 
-      - name: Upload .ovpn to FTP
+      - name: Upload file .ovpn lên FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: web-server.x10.mx
