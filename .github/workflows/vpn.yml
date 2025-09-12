@@ -1,0 +1,6 @@
+name: VPN Server with Cloudflared
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [create-vpn]
