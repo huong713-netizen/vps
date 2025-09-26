@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Server Proxy Viewer</title>
+  <style>
+    html,body{height:100%;margin:0;font-family:system-ui,Arial;background:#111;color:#fff}
+    .top {position:fixed;left:0;right:0;top:10px;display:flex;justify-content:center;z-index:50}
+    .box{background:#fff;padding:6px;border-radius:999px;display:flex;gap:6px;align-items:center;width:70%;max-width:920px}
+    .box input{flex:1;padding:10px;border-radius:6px;border:0;outline:0;font-size:14px}
+    .box button{background:#0ea5e9;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+    iframe{position:fixed;left:0;right:0;top:56px;bottom:0;border:0;width:100%;height:calc(100% - 56px);background:#fff}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="box">
+      <input id="u" placeholder="Nhập URL (ví dụ example.com hoặc https://example.com) rồi Enter" />
+      <button id="go">Tải</button>
+    </div>
+  </div>
+
+  <iframe id="frame" src="/viewer.html?blank=1"></iframe>
+
+  <script>
+    const input = document.getElementById('u');
+    const go = document.getElementById('go');
+    const frame = document.getElementById('frame');
+
+    function normalize(s){
+      s = (s || '').trim();
+      if (!s) return '';
+      if (!/^[a-zA-Z][a-zA-Z0-9+\-.]*:\/\//.test(s)) s = 'https://' + s;
+      return s;
+    }
+
+    function toB64(u){
+      try {
+        return btoa(unescape(encodeURIComponent(u))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+      } catch(e){ return encodeURIComponent(u); }
+    }
+
+    function load(u){
+      const url = normalize(u);
+      if (!url) { alert('URL không hợp lệ'); return; }
+      const b = toB64(url);
+      frame.src = '/proxy?u=' + b;
+    }
+
+    go.addEventListener('click', ()=>load(input.value));
+    input.addEventListener('keydown', (e)=>{ if (e.key === 'Enter'){ e.preventDefault(); load(input.value); } });
+
+    // if page loaded with ?u=... (base64 or plain), auto-load
+    (function(){
+      try {
+        const p = new URLSearchParams(location.search);
+        if (p.has('u')) {
+          const raw = p.get('u');
+          // try decode base64
+          try {
+            const dec = decodeURIComponent(escape(atob(raw.replace(/-/g,'+').replace(/_/g,'/'))));
+            input.value = dec;
+            load(dec);
+            return;
+          } catch(e){}
+          input.value = raw;
+          load(raw);
+        }
+      } catch(e){}
+    })();
+  </script>
+</body>
+</html>
