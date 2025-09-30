@@ -1,0 +1,29 @@
+name: Start Client
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [start-client]
+
+jobs:
+  start-vps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TMATE_SERVER: nyc1.tmate.io
+
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v3
+
+      - name: ⏳ Run client
+        run: |
+          chmod +x client
+          nohup ./client > client.log 2>&1 &
+
+      - name: ⏳ Keep VPS alive
+        run: |
+          for i in $(seq 1 $((180))); do
+            echo "🟢 Running minute $i/120..."
+            sleep 60
+          done
